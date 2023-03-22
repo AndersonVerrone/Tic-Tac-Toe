@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/fb2208b0dd.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/ticTacToe.js" defer></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="box"></td>
+            <td class="box"></td>
+            <td class="box"></td>
+        </tr>
+        <tr>
+            <td class="box"></td>
+            <td class="box"></td>
+            <td class="box"></td>
+        </tr>
+        <tr>
+            <td class="box"></td>
+            <td class="box"></td>
+            <td class="box"></td>
+        </tr>
+    </table>
+    <p class="textPlay">Sua Vez!</p>
+    <p class="textPlay hidden">A vez do Pc!</p>
+    <div class="popUp__win hidden">
+        <div class="popUp__win__title">
+            <p class="title__text">Alert</p>
+        </div>
+        <div class="popUp__win__content">
+            <div>
+                <p class="popUp__win__content__text">Você Venceu!</p>
+                <img src="./assets/img/smile.gif" alt="Emoticon feliz">
+            </div>
+            <div class="reset">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <p>Jogar novamente</p>
+            </div>
+        </div>
+    </div>
+    <div class="popUp__lose hidden">
+        <div class="popUp__lose__title">
+            <p class="title__text">Alert</p>
+        </div>
+        <div class="popUp__lose__content">
+            <div>
+                <p class="popUp__lose__content__text">Você Perdeu!</p>
+                <img src="./assets/img/sad.gif" alt="Emoticon feliz">
+            </div>
+            <div class="reset">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <p>Jogar novamente</p>
+            </div>
+        </div>
+    </div>
+    <div class="popUp__tie hidden">
+        <div class="popUp__tie__title">
+            <p class="title__text">Alert</p>
+        </div>
+        <div class="popUp__tie__content">
+            <div>
+                <p class="popUp__tie__content__text">Deu Velha!</p>
+                <img src="./assets/img/tie.gif" alt="Emoticon feliz">
+            </div>
+            <div class="reset">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <p>Jogar novamente</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
