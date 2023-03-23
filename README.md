@@ -44,4 +44,4 @@ Este projeto é licenciado sob a licença MIT. Para mais informações, consulte
 
 ---
 
-Feito com :heart: por [seu-nome-de-usuario](https://github.com/AndersonVerrone)
+Feito com :heart: por [Anderson Verrone](https://github.com/AndersonVerrone)
